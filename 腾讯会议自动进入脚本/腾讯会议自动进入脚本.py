@@ -105,8 +105,8 @@ def signIn(meeting_id, password):
 
 while True: # 上午第一节课
     now = datetime.now().strftime("%m-%d-%H:%M")
-    if now == "03-26-19:25":    # 此处填写想要进入会议的时间（建议提前5min）
-        meeting_id = '553147966'    # 此处填入会议号
+    if now == "04-27-07:55":    # 此处填写想要进入会议的时间（建议提前5min）
+        meeting_id = '94378900148'    # 此处填入会议号
         password = '1324'     # 此处填写入会密码，请在''内填写，格式：'1324'；如无密码请忽略
         time.sleep(5)
         openApp()
@@ -116,8 +116,8 @@ while True: # 上午第一节课
 
 while True: # 上午第二节课
     now = datetime.now().strftime("%m-%d-%H:%M")
-    if now == "03-23-20:47":    # 此处填写想要进入会议的时间（建议提前5min）
-        meeting_id = '702697364'    # 此处填入会议号
+    if now == "04-27-10:05":    # 此处填写想要进入会议的时间（建议提前5min）
+        meeting_id = '53230150751'    # 此处填入会议号
         password = '1324'     # 此处填写入会密码，请在''内填写，格式：'1324'；如无密码请忽略
         time.sleep(5)
         check()
